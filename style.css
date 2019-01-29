@@ -1,0 +1,7 @@
+img{
+    width: 500px;
+    filter: hue-rotate(-20deg);
+}
+label{
+    border: solid 1px #868789;
+}
