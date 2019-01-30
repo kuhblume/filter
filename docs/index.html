@@ -12,39 +12,39 @@
 <img src="test.jpg" alt="test" id="test">
 <hr>
 <label for="hue-rotate">hue-rotate
-    <input id="hue-rotate" type="number" min="0" max="360" value="0" onchange="convertD('hue-rotate')">
+    <input id="hue-rotate" type="range" min="0" max="360" value="0" onchange="convertD('hue-rotate')">
 </label>
 <br>
 <label for="brightness">brightness
-    <input id="brightness" type="number" min="0" max="500" value="100" onchange="convertP('brightness')">
+    <input id="brightness" type="range" min="0" max="500" value="100" onchange="convertP('brightness')">
 </label>
 <br>
 <label for="contrast">contrast
-    <input id="contrast" type="number" min="0" max="500" value="100" onchange="convertP('contrast')">
+    <input id="contrast" type="range" min="0" max="500" value="100" onchange="convertP('contrast')">
 </label>
 <br>
 <label for="grayscale">grayscale
-    <input id="grayscale" type="number" min="0" max="100" value="0" onchange="convertP('grayscale')">
+    <input id="grayscale" type="range" min="0" max="100" value="0" onchange="convertP('grayscale')">
 </label>
 <br>
 <label for="saturate">saturate
-    <input id="saturate" type="number" min="0" max="1000" value="100" onchange="convertP('saturate')">
+    <input id="saturate" type="range" min="0" max="1000" value="100" onchange="convertP('saturate')">
 </label>
 <br>
 <label for="sepia">sepia
-    <input id="sepia" type="number" min="0" max="100" value="0" onchange="convertP('sepia')">
+    <input id="sepia" type="range" min="0" max="100" value="0" onchange="convertP('sepia')">
 </label>
 <br>
 <label for="invert">invert
-    <input id="invert" type="number" min="-0" max="100" value="0" onchange="convertP('invert')">
+    <input id="invert" type="range" min="-0" max="100" value="0" onchange="convertP('invert')">
 </label>
 <br>
 <label for="opacity">opacity
-    <input id="opacity" type="number" min="0" max="100" value="100" onchange="convertP('opacity')">
+    <input id="opacity" type="range" min="0" max="100" value="100" onchange="convertP('opacity')">
 </label>
 <br>
 <label for="blur">blur
-    <input id="blur" type="number" min="-200" max="200" value="0" onchange="convertPx('blur')">
+    <input id="blur" type="range" min="-200" max="200" value="0" onchange="convertPx('blur')">
 </label>
 
 <script type="text/javascript" src="main.js"></script>
